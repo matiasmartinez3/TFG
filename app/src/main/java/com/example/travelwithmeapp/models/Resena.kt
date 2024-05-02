@@ -10,6 +10,6 @@ data class Resena @RequiresApi(Build.VERSION_CODES.O) constructor(
     val idUsuario: Long = -1,
     val fecha: OffsetDateTime = OffsetDateTime.now(),
     val titulo: String = "",
-    val contenido: String = "",
-    val nota: Int = -1
+    var contenido: String = "",
+    var nota: Int = -1
     ) : Serializable

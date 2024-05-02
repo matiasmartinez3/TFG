@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/rating_bar_resenas">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editText_textoResena"
             android:layout_width="380dp"
             android:layout_height="150dp"
             android:gravity="start"
@@ -56,6 +56,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
+        android:id="@+id/button_resena"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
