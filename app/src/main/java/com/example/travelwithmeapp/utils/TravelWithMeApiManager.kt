@@ -27,7 +27,8 @@ class TravelWithMeApiManager(var context: Context) {
     @RequiresApi(Build.VERSION_CODES.O)
     val utilities = Utilities()
     private lateinit var volleyQueue: RequestQueue
-    private val url = "http://10.0.2.2:8080/api"
+    //private val url = "http://10.0.2.2:8080/api"
+    private val url = "http://TravelWithMeAPI2-env.eba-ygqpxhnt.eu-west-3.elasticbeanstalk.com/api"
 
     // =======================================================================================================
     //  VUELOS
