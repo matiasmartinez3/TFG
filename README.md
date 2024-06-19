@@ -7,15 +7,11 @@ TravelWithMeApp es una aplicación de reserva de vuelos y hoteles. Está diseña
 - **Reserva de Hoteles**: Busca y filtra hoteles para encontrar el alojamiento perfecto.
 - **Sistema de favoritos**: Guarda los hoteles que más te han gustado en favoritos
 - **Sistema de reseñas**: Valora tu estancia dejando una reseña visible para todos los usuarios.
-- **API propia**: Los vuelos y hoteles de travelWithMeAPP se guardan en una API propia de la aplicación, desplegada en AWS.
+- **API propia**: Los vuelos y hoteles de travelWithMeAPP se guardan en una API propia de la aplicación.
 - **Login con Google**: Regístrate en la aplicación desde tu cuenta de google si lo prefieres.
 - **Área de gestión de usuarios**: Edita tus datos siempre que quieras desde nuestra área de gestión de usuarios.
 
-## Link para probar la APP
-https://appetize.io/app/5omyjxid5beyss4yfxqu2kxpem?device=pixel7&osVersion=13.0
-
 ## Desarrolladores
-
 Este Trabajo de Fin de Grado (TFG) ha sido desarrollado por:
 - Samuel Fraisolí
 - Matías Martínez
