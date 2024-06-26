@@ -13,10 +13,12 @@ import com.example.travelwithmeapp.models.User
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.GoogleAuthProvider
 
-
 /**
- * Se encarga de gestionar las operaciones de FirebaseAuth, nuestro sistema de autenticación de usuarios
- * @param context - El contexto de la activity en la que se instancia esta clase. Es necesario para que las funciones puedan hacer modificaciones del layout de la actividad.
+ * Class responsible for managing Firebase Authentication related operations.
+ *
+ * @property context Context of the activity.
+ *
+ * @author Samuel Fraisoli
  */
 class FirebaseAuthManager(val context: Context) {
     private val CODIGO_GOOGLE = 100
